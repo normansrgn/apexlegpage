@@ -57,6 +57,24 @@ main {
 .navigation_item {
     font-size: 23px;
     color: white;
+    position: relative; 
+    transition: 0.2s linear;
+    /* Добавлено 's' после времени для указания секунд */
+}
+
+.navigation_item::after {
+    content: ''; /* Добавляем псевдоэлемент */
+    position: absolute; /* Позиционируем абсолютно */
+    left: 0; /* Выравниваем слева */
+    bottom: -2px; /* Расстояние от текста до подчеркивания */
+    width: 0; /* Начальная ширина подчеркивания */
+    height: 2px; /* Толщина подчеркивания */
+    background-color: white; /* Цвет подчеркивания */
+    transition: width 0.3s ease; /* Плавное изменение ширины подчеркивания */
+}
+
+.navigation_item:hover::after {
+    width: 100%; /* Устанавливаем ширину подчеркивания на 100% при наведении */
 }
 
 /* PROMO */
@@ -129,10 +147,12 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     /* height: 1000px; */
-   
+
 }
 
-.news_tittlr {padding-top: 37px;
+.news_tittlr {
+    padding-top: 37px;
+    margin-bottom: 40px;
     text-align: center;
     font-size: 60px;
     font-weight: bold;
@@ -173,13 +193,5 @@ main {
 .news_cards {
     justify-content: space-around;
     gap: 50px;
+    padding-bottom: 90px;
 }
-
-
-
-
-
-
-
-
-
