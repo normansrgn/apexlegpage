@@ -13,3 +13,9 @@
     color: white;
 }
 
+
+.modes_cards {
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 90px;
+}

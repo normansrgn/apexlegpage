@@ -286,6 +286,10 @@ main {
     color: #767676;
 }
 
+.footer_emblems img {
+    /* width: 90px; */
+}
+
 .foot_nav_item::after {
     content: '';
     /* Добавляем псевдоэлемент */
