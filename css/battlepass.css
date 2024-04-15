@@ -1,0 +1,43 @@
+.battlepass_promo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/battlepass/promobgk.jpg);
+    height: 500px;
+}
+
+.mainbattle {
+    background-image: url(../img/newsbgk.jpg);
+
+}
+
+
+
+.battl_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.battl_logo img {
+    width: 450px;
+}
+
+.battl_dis {
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+
+
+.main_content_battlepass {
+}
+
+.side {background-image: url(../img/battlepass/side.jpg);margin-top: 150px;}
+
+.battlepas_cards {
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
