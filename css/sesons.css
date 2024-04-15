@@ -1,13 +1,50 @@
 .season_promo {
-    /* padding: 200px; */
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../img/sesons/promobgk.jpg);
-    height: 600px;
+    background-image: url(../img/sesons/Group\ 18.jpg);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.season_promo_sec {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/sesons/image\ 3.jpg);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 .season_news {
     padding-top: 37px;
+}
+
+.swiper {
+    height: 700px;
+
+}
+
+.swiper-slide img {
+    width: 1800px;
+}
+
+.season_promo_sec h1,.season_promo h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.season_promo_sec p,.season_promo p {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    width: 1000px;
 }
