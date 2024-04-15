@@ -36,13 +36,14 @@ main {
 
 }
 
-/* header */
+/* HEADER */
 
 .header {
     background-color: #212121;
 }
 
 .header_cont {
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,7 +59,7 @@ main {
     color: white;
 }
 
-/* promo_head */
+/* PROMO */
 
 .promo_head {
     background-size: cover;
@@ -117,3 +118,68 @@ main {
     color: black;
     transition: 0.1s linear;
 }
+
+/* NEWS */
+
+.news {
+    background-image: url(../img/newsbgk.jpg);
+}
+
+.news_cont {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 1000px; */
+   
+}
+
+.news_tittlr {padding-top: 37px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.news_ard {
+    margin: 0 auto;
+    background-color: #1E1C19;
+    /* width: 400px; */
+    height: 530px;
+    border-bottom: 5px solid #BE0000;
+}
+
+.news_ard img {
+    width: 100%;
+}
+
+.card_disc {
+    display: flex;
+    padding: 56px 10px 0px 10px;
+    color: white;
+    text-align: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card_tittle {
+    font-size: 28px;
+
+}
+
+.tittle_disc {
+    font-size: 19px;
+    width: 100%;
+}
+
+.news_cards {
+    justify-content: space-around;
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
+
