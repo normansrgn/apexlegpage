@@ -32,9 +32,16 @@
 
 
 .main_content_battlepass {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.side {background-image: url(../img/battlepass/side.jpg);margin-top: 150px;}
+.side {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/battlepass/side.jpg);
+    margin-top: 100px;
+}
 
 .battlepas_cards {
     justify-content: space-between;
@@ -51,4 +58,9 @@
 .youtub_bann img {
     width: 800px;
     max-width: 100%;
+}
+
+.battlepascard img {
+    border-bottom: 5px solid #BE0000;
+   
 }

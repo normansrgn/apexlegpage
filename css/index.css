@@ -180,6 +180,10 @@ main {
     border-bottom: 5px solid #BE0000;
 }
 
+.battlepascard {
+    border: none;
+}
+
 .battle_card {
     height: 400px;
 }
