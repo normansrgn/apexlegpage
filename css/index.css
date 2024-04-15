@@ -1,0 +1,32 @@
+@import url(./grid.css);
+@import url(./reset.css);
+
+
+* {
+    font-family: inherit;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    /* overflow-y: hidden; */
+
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+
+main {
+    flex-grow: 1;
+}
+
+.url {
+    text-decoration: none;
+    
+}
