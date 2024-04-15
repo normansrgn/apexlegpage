@@ -1,0 +1,70 @@
+/* PROMO BANNER */
+
+.legend_promo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/legends/promo_bgk.jpg');
+}
+
+.legpromo_tittle {
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+
+.leg_cont {
+    padding: 30px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.leg_disc {
+    width: 1116px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+/* LEGEND CARDS */
+
+.legends_cards {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/newsbgk.jpg);
+    padding-top: 90px;
+}
+
+.leg_search {
+    background: none;
+    border-radius: 71px;
+    padding: 16px 74px 12px 30px;
+    border: 3px solid black;
+}
+
+.leg_search::placeholder {
+    font-size: 20px;
+}
+
+.leg_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leg_card img {
+    width: 400px;
+}
+
+.leg_card_name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.legend_cont {
+    justify-content: space-around;
+}
