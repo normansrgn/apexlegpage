@@ -173,7 +173,7 @@ main {
 .news_ard {
     margin: 0 auto;
     background-color: #1E1C19;
-    /* width: 400px; */
+    width: 400px;
     height: 530px;
     border-bottom: 5px solid #BE0000;
 }
