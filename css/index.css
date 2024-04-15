@@ -82,7 +82,7 @@ main {
 .promo_head {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1080px;
+
     background-image: url('../img/promo_bgk.jpg');
 }
 
@@ -93,6 +93,7 @@ main {
 
 
 .promo_cont {
+    padding-bottom: 292px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -195,3 +196,56 @@ main {
     gap: 50px;
     padding-bottom: 90px;
 }
+
+
+
+/* UNDER FOOT */
+
+.under_foot_cont {
+    padding-bottom: 200px;
+}
+
+
+.under_foot {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url(../img/footbgk.jpg);
+}
+
+
+.under_foot_tittle {
+    padding-top: 150px;
+    color: white; 
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.under_foot_disc {
+    line-height: 1.2em;
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.foot_emblems {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.foot_emblem_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot_emblem_item img {
+    width: 400px;
+  
+}
+
+.emblem_name {font-size: 29px;color: white;font-weight: bold;}
