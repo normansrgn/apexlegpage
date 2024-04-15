@@ -57,24 +57,33 @@ main {
 .navigation_item {
     font-size: 23px;
     color: white;
-    position: relative; 
+    position: relative;
     transition: 0.2s linear;
     /* Добавлено 's' после времени для указания секунд */
 }
 
 .navigation_item::after {
-    content: ''; /* Добавляем псевдоэлемент */
-    position: absolute; /* Позиционируем абсолютно */
-    left: 0; /* Выравниваем слева */
-    bottom: -2px; /* Расстояние от текста до подчеркивания */
-    width: 0; /* Начальная ширина подчеркивания */
-    height: 2px; /* Толщина подчеркивания */
-    background-color: white; /* Цвет подчеркивания */
-    transition: width 0.3s ease; /* Плавное изменение ширины подчеркивания */
+    content: '';
+    /* Добавляем псевдоэлемент */
+    position: absolute;
+    /* Позиционируем абсолютно */
+    left: 0;
+    /* Выравниваем слева */
+    bottom: -2px;
+    /* Расстояние от текста до подчеркивания */
+    width: 0;
+    /* Начальная ширина подчеркивания */
+    height: 2px;
+    /* Толщина подчеркивания */
+    background-color: white;
+    /* Цвет подчеркивания */
+    transition: width 0.3s ease;
+    /* Плавное изменение ширины подчеркивания */
 }
 
 .navigation_item:hover::after {
-    width: 100%; /* Устанавливаем ширину подчеркивания на 100% при наведении */
+    width: 100%;
+    /* Устанавливаем ширину подчеркивания на 100% при наведении */
 }
 
 /* PROMO */
@@ -216,7 +225,7 @@ main {
 
 .under_foot_tittle {
     padding-top: 150px;
-    color: white; 
+    color: white;
     font-size: 50px;
     font-weight: 400;
     text-align: center;
@@ -245,7 +254,65 @@ main {
 
 .foot_emblem_item img {
     width: 400px;
-  
+
 }
 
-.emblem_name {font-size: 29px;color: white;font-weight: bold;}
+.emblem_name {
+    font-size: 29px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    /* padding: 20px; */
+    background-color: #212121;
+    /* height: 500px; */
+    padding-bottom: 60px;
+}
+
+.footer_nav {
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #767676;
+    padding-top: 55px;
+}
+
+.foot_nav_item {
+    color: #767676;
+}
+
+.foot_nav_item::after {
+    content: '';
+    /* Добавляем псевдоэлемент */
+    position: absolute;
+    /* Позиционируем абсолютно */
+    left: 0;
+    /* Выравниваем слева */
+    bottom: -2px;
+    /* Расстояние от текста до подчеркивания */
+    width: 0;
+    /* Начальная ширина подчеркивания */
+    height: 2px;
+    /* Толщина подчеркивания */
+    background-color: #767676;
+    /* Цвет подчеркивания */
+    transition: width 0.3s ease;
+    /* Плавное изменение ширины подчеркивания */
+}
+
+.foot_nav_item:hover::after {
+    width: 100%;
+    /* Устанавливаем ширину подчеркивания на 100% при наведении */
+}
+
+.footer_emblems {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
