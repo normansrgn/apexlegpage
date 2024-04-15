@@ -1,0 +1,13 @@
+.season_promo {
+    /* padding: 200px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/sesons/promobgk.jpg);
+    height: 600px;
+}
+
+
+
+.season_news {
+    padding-top: 37px;
+}
