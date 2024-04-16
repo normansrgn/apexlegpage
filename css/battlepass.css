@@ -53,7 +53,14 @@
     display: flex;
     justify-content: center;
 
+    transition: transform 0.2s ease;
 }
+
+.youtub_bann:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
 
 .youtub_bann img {
     width: 800px;
@@ -62,5 +69,5 @@
 
 .battlepascard img {
     border-bottom: 5px solid #BE0000;
-   
+
 }

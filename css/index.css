@@ -58,7 +58,7 @@ main {
 }
 
 .navigation_item {
-    font-size: clamp(1rem, 1.6vw, 2rem);
+    font-size: clamp(1rem, 1vw, 2rem);
     /* font-size: 23px; */
     color: white;
     position: relative;
@@ -102,6 +102,10 @@ main {
 .promo_logo {
     display: flex;
     justify-content: center;
+}
+
+.promo_logo img {
+    width: 100%;
 }
 
 
@@ -182,6 +186,13 @@ main {
     width: 400px;
     height: 530px;
     border-bottom: 5px solid #BE0000;
+    transition: transform 0.2s ease;
+}
+
+.news_ard:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+
 }
 
 .battlepascard {
@@ -195,6 +206,8 @@ main {
 .news_ard img {
     width: 100%;
 }
+
+
 
 .card_disc {
     display: flex;
@@ -221,6 +234,8 @@ main {
     gap: 50px;
     padding-bottom: 90px;
 }
+
+
 
 
 
@@ -352,6 +367,12 @@ main {
 @media (max-width: 590px) {
     .footer_nav {
         flex-direction: column;
-        
+
+    }
+}
+
+@media (max-width: 489px) {
+    .navigation_list {
+        flex-direction: column;
     }
 }

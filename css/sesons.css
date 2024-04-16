@@ -20,6 +20,17 @@
     align-items: center;
 }
 
+.season_promo_first {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/sesons/promobgk.jpg);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 .season_news {
