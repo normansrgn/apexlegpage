@@ -7,7 +7,8 @@
 }
 
 .legpromo_tittle {
-    font-size: 36px;
+    font-size: clamp(2rem, 2.5vw, 2rem);
+    /* font-size: 36px; */
     font-weight: 500;
     color: white;
 }
@@ -23,10 +24,11 @@
 }
 
 .leg_disc {
-    width: 1116px;
+    /* width: 1116px; */
     color: white;
-    font-size: 26px;
-    text-align: center;
+    /* font-size: 26px; */
+    text-align: start;
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
 }
 
 
