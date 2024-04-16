@@ -191,8 +191,7 @@ main {
 
 .news_ard:hover {
     transform: scale(1.1);
-    transition: transform 0.2s ease;
-
+    transition: transform 0.2s ease;;
 }
 
 .battlepascard {
@@ -352,16 +351,20 @@ main {
     padding-top: 60px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 1222px) {
+    .footer_emblems {
+        flex-direction: column;
+        gap: 80px;
+    }
+}
+
+@media (max-width: 777px) {
     .header_cont {
         flex-direction: column;
         gap: 30px;
     }
 
-    .footer_emblems {
-        flex-direction: column;
-        gap: 80px;
-    }
+   
 }
 
 @media (max-width: 590px) {
