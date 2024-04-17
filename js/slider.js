@@ -5,10 +5,10 @@ const swiper = new Swiper('.swiper', {
     slidesPerView: 1,
 
     // Autoplay
-    // autoplay: {
-    //     delay: 5500,
-    //     disableOnInteraction: false,
-    // },
+     autoplay: {
+        delay: 5500,
+         disableOnInteraction: false,
+     },
 
     // Navigation arrows
     navigation: {
